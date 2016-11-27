@@ -1,0 +1,11 @@
+{
+  "name": "AnimeKata",
+  "version": "0.0.1",
+  "description": "Testing out Anime.js",
+  "main": "index.js",
+  "author": "Sean",
+  "license": "ISC",
+  "dependencies": {
+    "animejs": "^1.1.1"
+  }
+}
