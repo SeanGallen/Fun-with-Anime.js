@@ -1,11 +1,22 @@
 {
-  "name": "AnimeKata",
-  "version": "0.0.1",
-  "description": "Testing out Anime.js",
-  "main": "index.js",
-  "author": "Sean",
-  "license": "ISC",
+  "name": "animefun",
+  "version": "1.0.0",
+  "description": "Testing it out.",
+  "main": "index.html",
   "dependencies": {
     "animejs": "^1.1.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Fun-with-Anime.js"
+  },
+  "keywords": [
+    "Anime.js"
+  ],
+  "author": "Sean Gallen",
+  "license": "ISC"
 }
