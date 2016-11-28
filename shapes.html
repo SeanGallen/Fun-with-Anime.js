@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Items Bouncing</title>
+    <link rel="stylesheet" type="text/css" href="shapes.css">
+    <script src="node_modules/animejs/anime.js"></script>
+  </head>
+  <body>
+
+    <section>
+      <article>
+        <div class="circle"></div>
+        <div class="square"></div>
+        <div class="triangle"></div>
+      </article>
+    </section>
+
+    <script>
+      anime({
+        targets: 'div',
+        rotate: {
+          value: 300,
+          duration: 1500,
+          easing: 'easeInOutQuad'
+        },
+        translateX: [50, 250],
+        direction: 'alternate',
+        loop: true
+      });
+    </script>
+  </body>
+</html>
