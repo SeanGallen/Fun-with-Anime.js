@@ -1,0 +1,28 @@
+html, body {
+  background: black;
+}
+
+div {
+  margin: 10%;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid red;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: green;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: orange;
+}
